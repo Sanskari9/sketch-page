@@ -5,8 +5,8 @@ import {BsMastodon} from "react-icons/bs"
 function Footer() {
   return (
                       // Footer Section Start
-    <footer className="relative z-10 bg-white pt-20 pb-10 lg:pt-[120px] lg:pb-20 ">
-         <div className="container mx-auto">
+    <footer className="relative z-10 border-t-2 bg-white pt-20 pb-10 lg:pt-[120px] lg:pb-20 ">
+         <div className="container mx-auto ">
     <div className="mx-[10rem] justify-between flex  flex-wrap ">
           <div className="w-full px-4 sm:w-1/2 lg:w-2/12">
             <div className="mb-10 w-full">
@@ -290,35 +290,35 @@ function Footer() {
 
           <div className="w-full flex flex-wrap justify-between px-[10rem] ml-4">
         
-        
+            <div className="hover:bg-black">
              <IoDiamond/>
-           
+           </div>
           <p className="text-body-color text-base ml-10">© 2023 Sketch B.V</p>
          
             
           <div className="mb-6 flex items-center">
             <a
               href="#!"
-              className="text-dark hover:bg-black hover:border-slate-600 mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
+              className="text-dark hover:bg-black border-slate-600 mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
             >
            <AiFillTwitterCircle/>
              
             </a>
             <a
               href="#!"
-              className="text-dark hover:bg-black hover:border-slate-600 mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
+              className="text-dark hover:bg-black border-slate-600 mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
             >
              <AiFillInstagram />   
             </a>
             <a
               href="#!"
-              className="text-dark hover:bg-black hover:border-slate-600 mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
+              className="text-dark hover:bg-black border-slate-600 mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
             >
                <AiFillYoutube/>       
             </a>
             <a
               href="#!"
-              className="text-dark hover:bg-black hover:border-slate-600 mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
+              className="text-dark hover:bg-black border-slate-700 mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
             >
              <BsMastodon/>
             </a>
