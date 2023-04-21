@@ -14,7 +14,7 @@ const Heading = () => {
     <div className="md:flex items-center justify-center m-4 top-16 mb-10">
         <div className="max-w-[810px] mx-2 my-10 p-2 h-[300px] ">
             <h1 ref={el =>{heading = el}} className="text-4xl md:text-7xl font-bold text-center">Every hero needs a sidekick. We have two.</h1>
-            <p ref={el =>{para = el}} className="text-center p-4 text-2xl">Create with our award-winning macOS app, share your projects in the browser (on any platform), and take Sketch with you.</p>
+            <p ref={el =>{para = el}} className="text-center p-4 text-2xl">Create with our award-winning macOS app, share your projects in the browser (on any platform), and take Sketch with you. </p>
         </div>
          
     </div>
