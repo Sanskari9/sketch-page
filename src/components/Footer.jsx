@@ -5,11 +5,11 @@ import {BsMastodon} from "react-icons/bs"
 function Footer() {
   return (
                       // Footer Section Start
-    <footer className="relative z-10 border-t-2 pt-20 pb-10 px-5 lg:pt-[120px] lg:pb-20 mx-4 ">
+    <footer className="max-w-[1080px] relative z-10 border-t-2 pt-20 pb-10 px-5 lg:pt-[120px] lg:pb-20 m-auto  ">
          <div className="container mx-auto ">
-    <div className="mx-[10rem] justify-between flex  flex-wrap ">
-          <div className="w-full px-4 sm:w-1/2 lg:w-2/12">
-            <div className="mb-10 w-full">
+    <div className="mx-4 justify-between  grid md:grid-cols-5 grid-cols-2 ">
+          <div className="w-full px-4  lg:w-2/12">
+            <div className="mb-10 w-full ">
               <h4 className="text-dark text-lg font-semibold">Product</h4>
               <ul>
                 <li>
@@ -90,7 +90,7 @@ function Footer() {
           </div>
 
                   
-          <div className="w-full px-4 sm:w-1/2 lg:w-2/12">
+          <div className="w-full px-4 sm:w-1/2 lg:w-2/12 ml-16">
             <div className="mb-10 w-full">
               <h4 className="text-dark  text-lg font-semibold">Why Sketch</h4>
               <ul>
@@ -131,7 +131,7 @@ function Footer() {
           </div>
 
 
-          <div Name="w-full px-4 sm:w-1/2 lg:w-2/12">
+          <div Name="w-full px-4 sm:w-1/2 lg:w-2/12 ml-16">
             <div className="mb-10 w-full">
               <h4 className="text-dark  text-lg font-semibold">Learn</h4>
               <ul>
@@ -195,7 +195,7 @@ function Footer() {
             </div>
           </div>
           
-          <div className="w-full px-4 sm:w-1/2 lg:w-2/12">
+          <div className="w-full px-4 sm:w-1/2 lg:w-2/12 ml-16">
             <div className="mb-10 w-full">
               <h4 className="text-dark  text-lg font-semibold">Support</h4>
               <ul>
@@ -236,7 +236,7 @@ function Footer() {
           </div>
 
        
-          <div classNameName="w-full px-4 sm:w-1/2 lg:w-2/12">
+          <div classNameName="w-full px-4 sm:w-1/2 lg:w-2/12 ml-16">
             <div className="mb-10 w-full">
               <h4 className="text-dark  text-lg font-semibold">Company</h4>
               <ul>
@@ -288,7 +288,7 @@ function Footer() {
           </div>
 
 
-          <div className="w-full flex flex-wrap justify-between px-[10rem] ml-4">
+          <div className="max-w-[1080px] flex flex-wrap justify-between px-4 ml-4">
         
             <div className="hover:text-gray-400">
              <IoDiamond/>
