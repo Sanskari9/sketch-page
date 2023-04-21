@@ -5,7 +5,7 @@ import {BsMastodon} from "react-icons/bs"
 function Footer() {
   return (
                       // Footer Section Start
-    <footer className="max-w-[1080px] relative z-10 border-t-2 pt-20 pb-10 px-5 lg:pt-[120px] lg:pb-20 m-auto  ">
+    <footer className="max-w-[1180px] relative z-10 border-t-2 pt-20 pb-10 px-5 lg:pt-[120px] lg:pb-20 m-auto  ">
          <div className="container mx-auto ">
     <div className="mx-4 justify-between  grid md:grid-cols-5 grid-cols-2 ">
           <div className="w-full px-4  lg:w-2/12">
@@ -288,7 +288,7 @@ function Footer() {
           </div>
 
 
-          <div className="max-w-[1080px] flex flex-wrap justify-between px-4 ml-4">
+          <div className="max-w-[1180px] flex flex-wrap justify-between px-4 ml-4">
         
             <div className="hover:text-gray-400">
              <IoDiamond/>
