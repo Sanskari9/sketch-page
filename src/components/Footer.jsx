@@ -5,7 +5,7 @@ import {BsMastodon} from "react-icons/bs"
 function Footer() {
   return (
                       // Footer Section Start
-    <footer className="relative z-10 border-t-2 bg-white pt-20 pb-10 lg:pt-[120px] lg:pb-20 ">
+    <footer className="relative z-10 border-t-2 pt-20 pb-10 px-5 lg:pt-[120px] lg:pb-20 mx-4 ">
          <div className="container mx-auto ">
     <div className="mx-[10rem] justify-between flex  flex-wrap ">
           <div className="w-full px-4 sm:w-1/2 lg:w-2/12">
@@ -290,10 +290,10 @@ function Footer() {
 
           <div className="w-full flex flex-wrap justify-between px-[10rem] ml-4">
         
-            <div className="hover:bg-black">
+            <div className="hover:text-gray-400">
              <IoDiamond/>
            </div>
-          <p className="text-body-color text-base ml-10">© 2023 Sketch B.V</p>
+          <p className="text-body-color text-base ml-24 pl-24">© 2023 Sketch B.V</p>
          
             
           <div className="mb-6 flex items-center">

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className="max-w-[1180px] m-auto flex md:flex-row flex-col items-center justify-between p-4">
+    <div className="max-w-[1180px] m-auto flex md:flex-row flex-col items-center justify-between my-4">
       <div className=" my-4 text-center md:text-start" >
         <h1 className="font-bold">Incredible design, right in your inbox</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, quas! Lorem ipsum dolor sit amet.</p>
